@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.555);
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+    background-color: brown;
+}
+
+a{
+   
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: rgb(0, 0, 0);
+}
+
+
+
+ p:hover{
+  
+    display: inline-block;
+    background-color: rgba(243, 238, 238, 0.068);
+    color: rgba(0, 0, 0, 0.685);
+    cursor: pointer;
+    border: 3px solid rgba(10, 8, 3, 0.151);
+    border-radius: 10px;
+    text-align: center;
+    
+ }
+
+
+h2 {
+
+   text-align: center;
+    display: inline-block;
+    
+    color: rgb(17, 4, 4);
+    
+}
+h2:hover{
+    background-color: rgba(243, 238, 238, 0.068);
+    color: rgba(0, 0, 0, 0.685);
+    cursor: pointer;
+    border: 3px solid rgba(10, 8, 3, 0.151);
+    border-radius: 10px;
+}
+body {
+
+ background-image: linear-gradient(to right, rgba(15, 15, 15, 0.959), rgba(17, 17, 77, 0.808));  
+ 
+
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 93, 93, 0.596);
+    width: 500px;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    
+    
+}

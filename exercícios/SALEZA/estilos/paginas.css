@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 31, 81);
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px 0;
+}
+header .logoIcon {
+    width: 70px;
+    height: 58px;
+
+}
+header .logoIcon img{
+    height: 100%;
+    object-fit: cover;
+}
+header nav menu ul{
+    display: flex;
+    gap: 2.6em;
+}
+header nav menu ul li a{
+    font-size: 20px;
+    color: rgb(232,107,1);
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 4px 8px ;
+    transition: .6s;
+}
+header nav menu ul li a:hover{
+    color: white;
+}
+
+header .icons{
+    position: relative;
+    right: -60px;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    gap: 10px;
+    color: rgb(199, 102, 18);
+
+}
+header .material-symbols-outlined{
+    font-size: 28px;
+    background-color: rgba(17, 17, 17, 0.37);
+    border-radius: 50%;
+    padding:6px;
+    cursor: pointer;
+    transition: .4s;
+}
+header .material-symbols-outlined:hover{
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+a.active{
+    border-bottom: 2px solid white;
+}
